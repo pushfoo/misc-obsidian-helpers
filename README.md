@@ -10,7 +10,9 @@ Barely there unless you're willing to import. Set up in a venv, then:
 $ obsidian-util --list vault
 Your Vault	/home/You/Vaults/Your Vault
 ```
+
 Or:
+
 ```shell
 $ obsidian-util --info file --name "Your File"
 ObsidianFile(name='Your File', system_path=PosixPath('/home/You/Vaults/Your Vault/Your File.md'), lazy=True)
@@ -22,7 +24,7 @@ Do you like these things?
 
 1. [Obsidian][]
 2. [Python][] 3.13+
-3. <ins>Deterministic</ins> and <ins>explainable</ins> automation
+3. *Deterministic* and *explainable* automation
 
 Are you okay with installing from source?
 
@@ -47,7 +49,7 @@ Also known as:
 
 > Slow is Smooth, Smooth is Fast
 
-Respect <a href="https://en.wiktionary.org/wiki/Chesterton%27s_fence"><ins>Chesterton's</ins> my fence</a>:
+Respect ~~[Chesterton's fence][]~~ my fence:
 
 1. Help me put my notes into [Obsidian][] the right way
 2. Help people who want the same things
@@ -55,7 +57,7 @@ Respect <a href="https://en.wiktionary.org/wiki/Chesterton%27s_fence"><ins>Chest
 
 [Python]: https://www.python.org/
 [Obsidian-flavored Markdown]: https://obsidian.md/help/obsidian-flavored-markdown
-
+[Chesterton's fence]: https://en.wiktionary.org/wiki/Chesterton%27s_fence
 
 ### Anti-Goals
 
@@ -65,7 +67,8 @@ Respect <a href="https://en.wiktionary.org/wiki/Chesterton%27s_fence"><ins>Chest
 2. "Disruption"
 3. Fads (non-determinism, package manager [Jenga][], etc.)
 
-> [!NOTE] The [uv][] package manger earned its place.
+> [!NOTE]
+> The [uv][] package manger earned its place.
 > It is both faster and more reliable than `pip`.
 
 [Jenga]: https://en.wikipedia.org/wiki/Jenga
