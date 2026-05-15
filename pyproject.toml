@@ -1,0 +1,22 @@
+[project]
+name = "misc-obsidian-helpers"
+authors = [ {name="pushfoo"}]
+version = "0.1.0"
+description = "Scripts for Obsidian and similar."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pyyaml>=6.0.3",
+]
+[project.scripts]
+obsidian-util ="misc_obsidian_helpers.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["misc_obsidian_helpers", "misc_obsidian_helpers.*"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+norecursedirs = ["doc", ".venv", "env", "dist"]
